@@ -159,20 +159,23 @@ a.button img.thunder {
     color: rgb(59, 59, 59);
 }
 #timer {
-    font-size: 3em;
-    font-weight: 100;
-    color: white;
-    text-shadow: 0 0 20px #48C8FF;
-
+    margin-top: 30px;
+    font-size: 2em;
+    font-weight: 500;
+    color: #04DF00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     div {
-        display: inline-block;
+        color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         min-width: 90px;
-
         span {
-            color: #B1CDF1;
             display: block;
-            font-size: .35em;
-            font-weight: 400;
+            font-size: 1em;
+            font-weight: 500;
         }
     }
 }
@@ -234,6 +237,30 @@ a.button img.thunder {
     }
     .header .offer .card{
         width: 80%;
+    }
+    #timer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 2em;
+        font-weight: 500;
+        color: #04DF00;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        div {
+            color: black;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            min-width: 90px;
+
+            span {
+                display: block;
+                font-size: 1em;
+                font-weight: 500;
+            }
+        }
     }
 }
 
