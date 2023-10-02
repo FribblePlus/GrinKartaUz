@@ -194,12 +194,15 @@ a.button img.thunder {
         width: auto;
     }
     nav .navigation a.button{
-        font-size: 13px;
-        padding: 10px 20px;
+        font-size: 3vw;
+        padding: 2vw 3vw;
         background-position: right center;
         background-size: 200% auto;
         -webkit-animation: pulse 1s infinite;
         animation: pulse512 1s infinite;
+    }
+    a.button img.thunder{
+        width: 3vw;
     }
     header .header{
         display: flex;
